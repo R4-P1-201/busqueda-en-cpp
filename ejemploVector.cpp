@@ -5,7 +5,7 @@ using namespace std;
 
 
 //  Complejidad O(n)
-void print(vector<int> &vec){ //  &vec es importante para evitar utilizar una copi del vector, solo el original 
+void print(vector<int> &vec){ //  &vec es importante para evitar utilizar una copia del vector, solo el original 
 	for(int i = 0; i < vec.size(); i++){ //  Va a imprimir todo el size de el vector (sus datos)
 		cout << vec[i] << " ";
 	}
